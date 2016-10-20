@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "react-hello",
+    "script": "./webpack.js",
+    "watch": ["./webpack.js"],
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "env_live": {
+      "NODE_ENV": "production"
+    }
+  }]
+}
